@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 256682246
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: skill 1.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: skill 2.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: skill.unity3d
+      Dependencies: {}

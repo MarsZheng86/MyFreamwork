@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &431164166724287834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2368169867798790880}
+  - component: {fileID: 4801465740715888133}
+  m_Layer: 5
+  m_Name: Cards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2368169867798790880
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431164166724287834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 250}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &4801465740715888133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431164166724287834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4837abdc60205034191ea5208f879570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fInterval: 200
+  normalHeight: -100
+  clickHeight: 0
+  m_cArrNumberSprites:
+  - {fileID: 21300000, guid: 9566d9b29f470ee42bbe28e80d3b6bde, type: 3}
+  - {fileID: 21300000, guid: 2dc79dd8e9685c24c83a263930714326, type: 3}
+  - {fileID: 21300000, guid: 99a052076ac633548abcd18194737ace, type: 3}
+  - {fileID: 21300000, guid: 781c77f48ca624c49910418afddbcb6c, type: 3}
+  - {fileID: 21300000, guid: 87ffdb990a1ac3245b54543c6ee38bf1, type: 3}
+  - {fileID: 21300000, guid: 980f4d1a51888514ba2745632e59e7ef, type: 3}
+  - {fileID: 21300000, guid: 354906975b1691a48811ea6b43a7fde7, type: 3}
+  - {fileID: 21300000, guid: 123d56177e1c1434f8362f14c0971fa3, type: 3}
+  - {fileID: 21300000, guid: 9a13a3471a6eced479a625aa375aa94a, type: 3}
+  m_cArrTypeSprites:
+  - {fileID: 21300000, guid: 15570349b64370c43889c3cd474e91f6, type: 3}
+  - {fileID: 21300000, guid: 7e2d6b5b10e2ac04c9fc64b191ac58c6, type: 3}
+  - {fileID: 21300000, guid: 2ced70fa128011d4090e6f421c270f48, type: 3}
+  - {fileID: 21300000, guid: 6c616d2f582a23d4abda4323763868a7, type: 3}
+  m_cCardPrefab: {fileID: 1919540252796748905, guid: fd9daedff1bc1014a9ed22a09d3ce4b0,
+    type: 3}
