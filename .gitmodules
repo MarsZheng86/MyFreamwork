@@ -1,0 +1,5 @@
+[submodule "Test2/"]
+	url = https://github.com/MarsZheng86/Test2.git
+[submodule "Assets/ArtResources/Test2/Test2"]
+	path = Assets/ArtResources/Test2/Test2
+	url = https://github.com/MarsZheng86/Test2.git
